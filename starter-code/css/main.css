@@ -1,8 +1,136 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+body,section,div,h1,h2,h3{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container {
+    margin: 1em 1em;
+    font-family: sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* color */
+.text-green{
+    color: #00B172;
+}
+.text-white{
+    color: #fff;
+}
+.background-green{
+    background-color: #00B172;
+}
+
+/* navbar */
+#navbar{
+    height: 70px;
+}
+.service-logo{
+    height: 50px;
+}
+.logo{
+    float: left;
+}
+.nav-items{
+    float:right;
+    list-style-type: none;
+}
+.nav-item{
+    float: left;
+    padding-left: 1em;
+}
+/* /navbar */
+
+
+/* main-visual */
+#main-visual{
+    height: 600px;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-message{
+    font-size: 5em;
+}
+.main-description{
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.3em;
+}
+/* /main-visual */
+
+/* feature */
+#feature{
+    padding-bottom: 3em;
+}
+.section-title{
+    font-size: 2em;
+    margin: 1em 0 1em 0;
+}
+.title01{
+    text-align: center;
+}
+.features{
+    display: flex;
+    align-items: center;;
+}
+.feature-item{
+    width: 33%;
+    text-align: center;
+}
+.feature-img{
+    height: 5em;
+    padding: 2em;
+}
+/* /feature */
+
+/* function */
+#function>.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 4em;
+    position: relative;
+}
+.spotify-icon{
+    height: 7em;
+    position: absolute;
+    top: 50%;
+}
+.title02:after{
+    border-bottom: #fff solid 3px;
+}
+.section-header{
+    font-size:1.8em;
+}
+.section-text{
+    font-size: 1.5em;
+    font-weight: 100;
+    line-height: 1.5;
+}
+.function-description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.app-img{
+    width: 50%;
+    padding: 5em 0 0 10em;
+    text-align: right;
+}
+.app-img>img{
+    width: 70%;
+}
+/* /function */
